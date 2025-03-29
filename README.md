@@ -1,9 +1,7 @@
 # 7210_taxonomic_classification
 Conducting taxonomic classification including genus and species level classification, genotyping, and intra-contig analysis on assemblies
-# Genotyping and Taxonomic and Quality Assessments: Group A3
-**Group members:** Kevin Saju, Kristin Keith, Marissa Howard, Angela Huynh, Vedika Agarwal
 
-Our pipeline performs genotyping, taxonomic classification, and quality assessments for genomic data. It integrates multiple tools to classify sequences at the genus level, species level, assess genome quality, and conduct intra-contig taxonomic evaluations.
+Pipeline performs genotyping, taxonomic classification, and quality assessments for genomic data. It integrates multiple tools to classify sequences at the genus level, species level, assess genome quality, and conduct intra-contig taxonomic evaluations.
 
 ## Input directory
 ```
