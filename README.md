@@ -5,6 +5,49 @@ Conducting taxonomic classification including genus and species level classifica
 
 Our pipeline performs genotyping, taxonomic classification, and quality assessments for genomic data. It integrates multiple tools to classify sequences at the genus level, species level, assess genome quality, and conduct intra-contig taxonomic evaluations.
 
+## Input directory
+```
+Pipeline/
+├── asm/    # Contains all reference databases
+│   ├── example1.fna/
+│   └── example2.fna/
+├── mmseq_downloading_contigs.sh/   # Helper file for MMSeq
+├── pipeline.sh     # Pipeline to run taxonomic classification, genotyping, and contig analysis
+└── README.md       # This file
+```
+
+## Output Directory
+```
+Pipeline/
+├── asm/                          # Contains all sample/test assemblies
+│   ├── example1.fna/
+│   └── example2.fna/
+├── mmseq_downloading_contigs.sh/   # Helper file for MMSeq
+├── logs/                          # Log files from various tools
+│   ├── 16S_stderr.log/
+│   ├── 16S_stdout.log/
+│   ├── checkm_stderr.log/   
+│   ├── checkm_stdout.log/
+│   ├── fastani.log/
+│   ├── mlst_stderr.log/
+│   ├── mlst_stdout.log/
+│   └── gffs/                      # Folder for GFF files (if needed)
+├── nes_top_genomes/               # Top reference genomes used in MMSeq Analysis
+│   ├── example_genome.fna   
+├── output/
+│   ├── 16S_output/
+│   │   ├── example.fa             # .fa file
+│   │   └── example.gff            # .gff files
+│   ├── checkm/
+│   │   ├── checkm.tax.qa.out
+│   │   ├── checkm.tax.qa.tsv
+│   ├── fastani_results/
+│   │   ├── fastani_results.tsv
+│   └── mmseq/
+│       ├── top_all_result.m8
+└── README.md                     # This file
+
+```
 ## 📋 Pipeline Steps
 
 1. **Genotyping**
