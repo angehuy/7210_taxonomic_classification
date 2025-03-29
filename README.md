@@ -71,7 +71,7 @@ Our pipeline performs genotyping, taxonomic classification, and quality assessme
 ### 🧬 Considerations for running the pipeline!
 * To run this pipeline you will need to either download or clone the Pipeline_G3_final.tar.gz to your Downloads folder in your home directiory and expand the compressed file.
 * Once the file has been expanded, you should have a "Pipeline_G3" folder. This folder contains the shell scripts you will need for the pipeline as well as an "asm" folder. Within this folder is a genome assembly from our sample set to test this pipeline. However, should you want to test more assemblies, you can access the link below and import more assemblies into the "asm" folder.
-* This pipeline runs one bash script that executes our MLST, barrnap & RDP Classifier, FastANI, CheckM, and MMSeq2 analyses. Pipeline steps with their respective versions,outputs, and logs are detailed above.
+* This pipeline runs one bash script that executes our MLST, barrnap & RDP Classifier, FastANI, CheckM, and MMSeq2 analyses. Pipeline steps with their respective versions, outputs, and logs are detailed above.
 * You need to have Docker open and running in the background of your computer for this pipeline to work.
 
 
@@ -86,7 +86,7 @@ Our pipeline performs genotyping, taxonomic classification, and quality assessme
 ```
 #This pipeline is compatible with a osx-64 platform on a Mac computer using zsh.
 #Before running this script, open docker and have it running in the background of your computer.
-#Ensure that you have downloaded the Pipeline_G3_final.tar.gz from this repository into your ~/Downloads directory on your Mac computer.
+#Ensure that you have downloaded the Pipeline_G3_final.tar.gz from this repository into your ~/Downloads directory on your Mac computer. This zip file contains 
 
 #Make sure you are in your home directory
 cd ~/
