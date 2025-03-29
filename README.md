@@ -141,6 +141,5 @@ chmod 777 ./pipeline.sh ./mmseq_downloading_contigs.sh
 
 #Run your pipeline shell
 ./pipeline.sh
-
 ```
 
